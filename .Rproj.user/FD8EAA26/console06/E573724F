@@ -1,0 +1,6 @@
+]0;~/Documents/Happy Data/Happy idiots/PredictAZ[?1034hMacBook-Pro-van-Paul:PredictAZ paul$ git status
+fatal: not a git repository (or any of the parent directories): .git
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git init
+Initialized empty Git repository in /Users/paul/Documents/Happy Data/Happy idiots/PredictAZ/.git/
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git remote add origin https://github.com/happyidiots/AZpredict.git
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git add.[1P.d. .
