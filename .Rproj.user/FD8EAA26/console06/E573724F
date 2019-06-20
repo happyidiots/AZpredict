@@ -104,3 +104,30 @@ remote: Resolving deltas:   0% (0/6)   [Kremote: Resolving deltas:  16% (1/6) 
 To https://github.com/happyidiots/AZpredict.git
  * [new branch]      master -> master
 ]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git add --all
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git commit "     t -m "remove fun   script"
+[master 8ef3bd3] remove script
+ 3 files changed, 28 insertions(+), 134 deletions(-)
+ delete mode 100644 R/Pre-rendering (1.2).R
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git push origin/master
+fatal: 'origin/master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git push origin/master        master
+Enumerating objects: 15, done.
+Counting objects:   6% (1/15)   Counting objects:  13% (2/15)   Counting objects:  20% (3/15)   Counting objects:  26% (4/15)   Counting objects:  33% (5/15)   Counting objects:  40% (6/15)   Counting objects:  46% (7/15)   Counting objects:  53% (8/15)   Counting objects:  60% (9/15)   Counting objects:  66% (10/15)   Counting objects:  73% (11/15)   Counting objects:  80% (12/15)   Counting objects:  86% (13/15)   Counting objects:  93% (14/15)   Counting objects: 100% (15/15)   Counting objects: 100% (15/15), done.
+Delta compression using up to 4 threads
+Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
+Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 1.70 KiB | 45.00 KiB/s, done.
+Total 8 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  33% (1/3)   [Kremote: Resolving deltas:  66% (2/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/happyidiots/AZpredict.git
+   8dc75f6..8ef3bd3  master -> master
+]0;~/Documents/Happy Data/Happy idiots/PredictAZ[?1034hMacBook-Pro-van-Paul:PredictAZ paul$ git add all   --all
