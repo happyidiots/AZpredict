@@ -198,3 +198,35 @@ fatal: renaming 'Data' failed: Invalid argument
 ]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git mv Data dataa[2@/aaa[1P data
 fatal: renaming 'Data' failed: Invalid argument
 ]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git add --all
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git diff
+[?1h=[1mdiff --git a/.Rproj.user/FD8EAA26/console06/E573724F b/.Rproj.user/FD8EAA26/console06/E573724F[m[m
+[1mindex a3b5a1e..bc57e5c 100644[m[m
+[1m--- a/.Rproj.user/FD8EAA26/console06/E573724F[m[m
+[1m+++ b/.Rproj.user/FD8EAA26/console06/E573724F[m[m
+[36m@@ -198,3 +198,4 @@[m [mfatal: renaming 'Data' failed: Invalid argument[m[m
+ 0;~/Documents/Happy Data/Happy idiots/PredictAZ[7m^G[27mMacBook-Pro-van-Paul:PredictAZ paul$ [7m^G[27mgit mv Dat[1ma[0m/ data[7m^G[27m[m[m
+ fatal: renaming 'Data' failed: Invalid argument[m[m
+ 0;~/Documents/Happy Data/Happy idiots/PredictAZ[7m^G[27mMacBook-Pro-van-Paul:PredictAZ paul$ git add --all[m[m
+[32m+[m[32m0;~/Documents/Happy Data/Happy idiots/PredictAZ[7m^G[27mMacBook-Pro-van-Paul:PredictAZ paul$ git diff[m[41m[7m^M[27m[m[m
+[K[?1l>]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git add data
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git commit\ 
+hint: Waiting for your editor to close the file... [?2004herror: There was a problem with the editor 'vi'.
+Please supply the message using either -m or -F option.
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git commit -m "rename folder"
+[master 9ecebf3] rename folder
+ 3 files changed, 38 insertions(+), 2 deletions(-)
+ create mode 100644 .DS_Store
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git push origin master
+Enumerating objects: 14, done.
+Counting objects:   7% (1/14)   Counting objects:  14% (2/14)   Counting objects:  21% (3/14)   Counting objects:  28% (4/14)   Counting objects:  35% (5/14)   Counting objects:  42% (6/14)   Counting objects:  50% (7/14)   Counting objects:  57% (8/14)   Counting objects:  64% (9/14)   Counting objects:  71% (10/14)   Counting objects:  78% (11/14)   Counting objects:  85% (12/14)   Counting objects:  92% (13/14)   Counting objects: 100% (14/14)   Counting objects: 100% (14/14), done.
+Delta compression using up to 4 threads
+Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
+Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 1.71 KiB | 1.71 MiB/s, done.
+Total 8 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  33% (1/3)   [Kremote: Resolving deltas:  66% (2/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/happyidiots/AZpredict.git
+   a579920..9ecebf3  master -> master
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git mv -f Data data      a data
+fatal: renaming 'Data' failed: Invalid argument
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git config core.ignorecase false
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git config core.ignorecase false[13Pmv -f Data datapush origin mastercommit -m "rename folder"[Kadd data[4Pdiffadd --all
