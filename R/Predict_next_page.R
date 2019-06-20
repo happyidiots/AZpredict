@@ -1,9 +1,10 @@
 PredictNextPage <- function (current_URL){
-  out <- try(predict(model,newdata = current_URL), silent = TRUE)
+  startPattern <- new("Pattern", current_URL)
+  out <- try(predict(model, startPattern), silent = TRUE)
   if(inherits(out,"try_error")){
     out <- "None"
   }
-    out
+  out
 }
 
-PredictNextPage("locaties")
+
