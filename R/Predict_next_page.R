@@ -6,4 +6,4 @@ PredictNextPage <- function (current_URL){
     out
 }
 
-# test
+PredictNextPage("locaties")
