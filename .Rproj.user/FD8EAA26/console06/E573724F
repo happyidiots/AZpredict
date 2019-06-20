@@ -4,3 +4,79 @@ fatal: not a git repository (or any of the parent directories): .git
 Initialized empty Git repository in /Users/paul/Documents/Happy Data/Happy idiots/PredictAZ/.git/
 ]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git remote add origin https://github.com/happyidiots/AZpredict.git
 ]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git add.[1P.d. .
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git commit -m "First Commit"
+[master (root-commit) 98e3a81] First Commit
+ 17 files changed, 408 insertions(+)
+ create mode 100644 .Rbuildignore
+ create mode 100644 .Rproj.user/FD8EAA26/console06/E573724F
+ create mode 100644 .Rproj.user/FD8EAA26/console06/E573724F.env
+ create mode 100644 .Rproj.user/FD8EAA26/console06/INDEX001
+ create mode 100644 .Rproj.user/FD8EAA26/sources/prop/8E1B1E5E
+ create mode 100644 .Rproj.user/FD8EAA26/sources/prop/INDEX
+ create mode 100644 .Rproj.user/FD8EAA26/sources/s-9034D04B/86FDF356
+ create mode 100644 .Rproj.user/FD8EAA26/sources/s-9034D04B/86FDF356-contents
+ create mode 100644 .Rproj.user/FD8EAA26/sources/s-9034D04B/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .gitignore
+ create mode 100644 DESCRIPTION
+ create mode 100644 Data/model.RData
+ create mode 100644 NAMESPACE
+ create mode 100644 PredictAZ.Rproj
+ create mode 100644 R/Pre-rendering (1.2).R
+ create mode 100644 R/Predict_next_page.R
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ Git push origin/master
+fatal: 'origin/master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git push origin/master
+fatal: 'origin/master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git stau rus   tus
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/FD8EAA26/console06/E573724F[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ $ git config --global user.name "paullenssen"
+bash: $: command not found
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git config          $ git config --global user.name "paullenssen"[1P 
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ $ git config --global user.name "paullenssen"                                             git statuspush origin/masterGit push origin/mastergit push origin/master[12Pstatus[Kgit config --  globe al user.email "paul@happyidiots.nl"
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git push origin ma   /master
+fatal: 'origin/master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;~/Documents/Happy Data/Happy idiots/PredictAZ[?1034hMacBook-Pro-van-Paul:PredictAZ paul$ git idff    diff
+[?1h=[1mdiff --git a/.Rproj.user/FD8EAA26/console06/E573724F b/.Rproj.user/FD8EAA26/console06/E573724F[m[m
+[1mindex c6d92f2..dd26fa8 100644[m[m
+[1m--- a/.Rproj.user/FD8EAA26/console06/E573724F[m[m
+[1m+++ b/.Rproj.user/FD8EAA26/console06/E573724F[m[m
+[36m@@ -4,3 +4,62 @@[m [mfatal: not a git repository (or any of the parent directories): .git[m[m
+ Initialized empty Git repository in /Users/paul/Documents/Happy Data/Happy idiots/PredictAZ/.git/[m[m
+ 0;~/Documents/Happy Data/Happy idiots/PredictAZ[7m^G[27mMacBook-Pro-van-Paul:PredictAZ paul$ git remote add origin https://github.com/happyidiot[m s/AZpredict.git[m[m
+ 0;~/Documents/Happy Data/Happy idiots/PredictAZ[7m^G[27mMacBook-Pro-van-Paul:PredictAZ paul$ git add [m[m
+[32m+[m[32m0;~/Documents/Happy Data/Happy idiots/PredictAZ[7m^G[27mMacBook-Pro-van-Paul:PredictAZ paul$ git commit -m "First Commit"[m[41m[7m^M[27m[m[m
+[32m+[m[32m[master (root-commit) 98e3a81] First Commit[m[41m[7m^M[27m[m[m
+[32m+[m[32m 17 files changed, 408 insertions(+)[m[41m[7m^M[27m[m[m
+[32m+[m[32m create mode 100644 .Rbuildignore[m[41m[7m^M[27m[m[m
+[32m+[m[32m create mode 100644 .Rproj.user/FD8EAA26/console06/E573724F[m[41m[7m^M[27m[m[m
+[32m+[m[32m create mode 100644 .Rproj.user/FD8EAA26/console06/E573724F.env[m[41m[7m^M[27m[m[m
+[32m+[m[32m create mode 100644 .Rproj.user/FD8EAA26/console06/INDEX001[m[41m[7m^M[27m[m[m
+[32m+[m[32m create mode 100644 .Rproj.user/FD8EAA26/sources/prop/8E1B1E5E[m[41m[7m^M[27m[m[m
+[32m+[m[32m create mode 100644 .Rproj.user/FD8EAA26/sources/prop/INDEX[m[41m[7m^M[27m[m[m
+:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[19;1H[K[K [KESCESC[KESCESC[K:[K[K[?1l>]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git add -- all    all
