@@ -270,3 +270,17 @@ remote: Resolving deltas:   0% (0/6)   [Kremote: Resolving deltas:  16% (1/6) 
 To https://github.com/happyidiots/AZpredict.git
    2e79445..5824822  master -> master
 ]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git push origin mastercommit -m "fix function"[3P"fix function"[12Padd --all
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git add --allpush origin mastercommit -m "fix function"  2.0"
+[master 7257e16] fix function 2.0
+ 3 files changed, 25 insertions(+), 6 deletions(-)
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git commit -m "fix function 2.0"add --all[Kpush origin master
+Enumerating objects: 17, done.
+Counting objects:   5% (1/17)   Counting objects:  11% (2/17)   Counting objects:  17% (3/17)   Counting objects:  23% (4/17)   Counting objects:  29% (5/17)   Counting objects:  35% (6/17)   Counting objects:  41% (7/17)   Counting objects:  47% (8/17)   Counting objects:  52% (9/17)   Counting objects:  58% (10/17)   Counting objects:  64% (11/17)   Counting objects:  70% (12/17)   Counting objects:  76% (13/17)   Counting objects:  82% (14/17)   Counting objects:  88% (15/17)   Counting objects:  94% (16/17)   Counting objects: 100% (17/17)   Counting objects: 100% (17/17), done.
+Delta compression using up to 4 threads
+Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
+Writing objects:  11% (1/9)   Writing objects:  22% (2/9)   Writing objects:  33% (3/9)   Writing objects:  44% (4/9)   Writing objects:  55% (5/9)   Writing objects:  66% (6/9)   Writing objects:  77% (7/9)   Writing objects:  88% (8/9)   Writing objects: 100% (9/9)   Writing objects: 100% (9/9), 1.43 KiB | 488.00 KiB/s, done.
+Total 9 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  33% (1/3)   [Kremote: Resolving deltas:  66% (2/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/happyidiots/AZpredict.git
+   5824822..7257e16  master -> master
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git push origin mastercommit -m "fix function 2.0"add --all[K
