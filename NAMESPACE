@@ -1,1 +1,3 @@
-exportPattern("^[[:alpha:]]+")
+export(PredictNextPage)
+import(clickstream)
+import(markovchain)
