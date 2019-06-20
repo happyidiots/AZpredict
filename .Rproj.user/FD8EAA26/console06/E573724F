@@ -162,3 +162,39 @@ remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4) 
 To https://github.com/happyidiots/AZpredict.git
    192aa38..8287a2b  master -> master
 ]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git push origin mastercommit -m "fix 2.0"[10Padd --all
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git add --allpush origin mastercommit -m "fix 2.0"        readme updata e"
+[master a579920] readme update
+ 4 files changed, 21 insertions(+), 5 deletions(-)
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git commit -m "readme update"[16Padd --allpush origin master
+Enumerating objects: 21, done.
+Counting objects:   4% (1/21)   Counting objects:   9% (2/21)   Counting objects:  14% (3/21)   Counting objects:  19% (4/21)   Counting objects:  23% (5/21)   Counting objects:  28% (6/21)   Counting objects:  33% (7/21)   Counting objects:  38% (8/21)   Counting objects:  42% (9/21)   Counting objects:  47% (10/21)   Counting objects:  52% (11/21)   Counting objects:  57% (12/21)   Counting objects:  61% (13/21)   Counting objects:  66% (14/21)   Counting objects:  71% (15/21)   Counting objects:  76% (16/21)   Counting objects:  80% (17/21)   Counting objects:  85% (18/21)   Counting objects:  90% (19/21)   Counting objects:  95% (20/21)   Counting objects: 100% (21/21)   Counting objects: 100% (21/21), done.
+Delta compression using up to 4 threads
+Compressing objects:  10% (1/10)   Compressing objects:  20% (2/10)   Compressing objects:  30% (3/10)   Compressing objects:  40% (4/10)   Compressing objects:  50% (5/10)   Compressing objects:  60% (6/10)   Compressing objects:  70% (7/10)   Compressing objects:  80% (8/10)   Compressing objects:  90% (9/10)   Compressing objects: 100% (10/10)   Compressing objects: 100% (10/10), done.
+Writing objects:   9% (1/11)   Writing objects:  18% (2/11)   Writing objects:  27% (3/11)   Writing objects:  36% (4/11)   Writing objects:  45% (5/11)   Writing objects:  54% (6/11)   Writing objects:  63% (7/11)   Writing objects:  72% (8/11)   Writing objects:  81% (9/11)   Writing objects:  90% (10/11)   Writing objects: 100% (11/11)   Writing objects: 100% (11/11), 1.15 KiB | 24.00 KiB/s, done.
+Total 11 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
+To https://github.com/happyidiots/AZpredict.git
+   8287a2b..a579920  master -> master
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ ls la  -la
+total 64
+drwxr-xr-x  14 paul  staff   448 Jun 20 14:52 .
+drwxr-xr-x  16 paul  staff   512 Jun 20 13:59 ..
+-rw-r--r--   1 paul  staff    43 Jun 20 13:47 .Rbuildignore
+-rw-r--r--   1 paul  staff  3312 Jun 20 14:15 .Rhistory
+drwxr-xr-x   4 paul  staff   128 Jun 20 13:46 .Rproj.user
+drwxr-xr-x  13 paul  staff   416 Jun 20 14:56 .git
+-rw-r--r--   1 paul  staff    24 Jun 20 14:00 .gitignore
+-rw-------   1 paul  staff  4738 Jun 20 13:47 .httr-oauth
+-rw-r--r--   1 paul  staff   371 Jun 20 14:56 DESCRIPTION
+-rw-r--r--   1 paul  staff    31 Jun 20 13:46 NAMESPACE
+-rw-r--r--@  1 paul  staff   356 Jun 20 14:44 PredictAZ.Rproj
+drwxr-xr-x   4 paul  staff   128 Jun 20 14:35 R
+drwxr-xr-x   3 paul  staff    96 Jun 20 13:47 data
+drwxr-xr-x   2 paul  staff    64 Jun 20 13:46 man
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git mv Data data
+fatal: renaming 'Data' failed: Invalid argument
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git mv Data data
+fatal: renaming 'Data' failed: Invalid argument
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git mv Data dataa[2@/aaa[1P data
+fatal: renaming 'Data' failed: Invalid argument
+]0;~/Documents/Happy Data/Happy idiots/PredictAZMacBook-Pro-van-Paul:PredictAZ paul$ git add --all
