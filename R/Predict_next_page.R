@@ -1,3 +1,6 @@
+library(clickstream);library(markovchain)
+
+
 PredictNextPage <- function (current_URL){
   startPattern <- new("Pattern", current_URL)
   out <- try(predict(model, startPattern), silent = TRUE)
