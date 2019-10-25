@@ -15,7 +15,3 @@ PredictNextPage <- function (current_URL){
 }
 
 
-toJSON(PredictNextPage("home"))
-
-
-?new()
